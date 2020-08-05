@@ -1,11 +1,9 @@
 package com.zhubo.statemachine.single.listener;
 
-import com.zhubo.statemachine.single.enums.OrderStatusChangeEvent;
-
+import com.zhubo.statemachine.enums.OrderStatusChangeEvent;
 import org.springframework.messaging.Message;
 import org.springframework.statemachine.annotation.OnTransition;
 import org.springframework.statemachine.annotation.WithStateMachine;
-import org.springframework.statemachine.listener.StateMachineListenerAdapter;
 import org.springframework.stereotype.Component;
 
 import lombok.extern.slf4j.Slf4j;

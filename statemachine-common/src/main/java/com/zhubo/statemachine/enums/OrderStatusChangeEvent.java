@@ -1,4 +1,4 @@
-package com.zhubo.statemachine.single.enums;
+package com.zhubo.statemachine.enums;
 
 /**
  * <p>Company: 成都返空汇网络技术有限公司</p>

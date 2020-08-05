@@ -8,5 +8,11 @@
     <artifactId>statemachine-multi</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.zhubo</groupId>
+            <artifactId>statemachine-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

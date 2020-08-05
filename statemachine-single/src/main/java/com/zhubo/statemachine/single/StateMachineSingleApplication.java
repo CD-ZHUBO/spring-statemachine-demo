@@ -1,7 +1,7 @@
 package com.zhubo.statemachine.single;
 
-import com.zhubo.statemachine.single.enums.OrderStatues;
-import com.zhubo.statemachine.single.enums.OrderStatusChangeEvent;
+import com.zhubo.statemachine.enums.OrderStatues;
+import com.zhubo.statemachine.enums.OrderStatusChangeEvent;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

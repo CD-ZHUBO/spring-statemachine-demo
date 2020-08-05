@@ -1,21 +1,13 @@
 package com.zhubo.statemachine.single.config;
 
-import com.zhubo.statemachine.single.enums.OrderStatues;
-import com.zhubo.statemachine.single.enums.OrderStatusChangeEvent;
+import com.zhubo.statemachine.enums.OrderStatues;
+import com.zhubo.statemachine.enums.OrderStatusChangeEvent;
 
 import org.springframework.context.annotation.Configuration;
-import org.springframework.messaging.Message;
-import org.springframework.statemachine.StateContext;
-import org.springframework.statemachine.StateMachine;
 import org.springframework.statemachine.config.EnableStateMachine;
 import org.springframework.statemachine.config.StateMachineConfigurerAdapter;
-import org.springframework.statemachine.config.builders.StateMachineConfigurationConfigurer;
 import org.springframework.statemachine.config.builders.StateMachineStateConfigurer;
 import org.springframework.statemachine.config.builders.StateMachineTransitionConfigurer;
-import org.springframework.statemachine.listener.StateMachineListener;
-import org.springframework.statemachine.listener.StateMachineListenerAdapter;
-import org.springframework.statemachine.state.State;
-import org.springframework.statemachine.transition.Transition;
 
 import java.util.EnumSet;
 

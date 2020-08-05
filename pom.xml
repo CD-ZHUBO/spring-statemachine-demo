@@ -48,6 +48,7 @@
     <modules>
         <module>statemachine-single</module>
         <module>statemachine-multi</module>
+        <module>statemachine-common</module>
     </modules>
 
     <dependencyManagement>
